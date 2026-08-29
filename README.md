@@ -20,6 +20,12 @@ Please visit [Chapa](https://developer.chapa.co/docs/accept-payments/) for full 
 
 Please visit [Developers Guide](https://developer.chapa.co/laravel-sdk/) for full guide and examples.
 
+## Installation
+
+```
+composer require sammytg7/lar-chapa
+```
+
 ### Usage
 
 You can check [this](https://github.com/Chapa-Et/sdk-examples/tree/master/chapa-laravel-example) sample Laravel code as a reference.
