@@ -14,6 +14,6 @@ All notable changes to `chapa-laravel` will be documented in this file
 
 - Support Transfers {Create and Verify} [beta]
 - 
-## 1.0.2 - 2024-07-22
+## 1.0.3 - 2026-08-29
 
 - Supporting latest `Laravel version (13.x)`
