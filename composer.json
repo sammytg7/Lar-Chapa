@@ -1,5 +1,5 @@
 {
-  "name": "chapa/chapa-laravel",
+  "name": "lar/chapa",
   "description": "A Laravel Package to Accept Payment through Chapa",
   "keywords": [
     "chapa",
