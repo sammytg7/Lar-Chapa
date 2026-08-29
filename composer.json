@@ -3,7 +3,8 @@
   "description": "A Laravel Package to Accept Payment through Chapa",
   "keywords": [
     "chapa",
-    "chapa-laravel"
+    "chapa-laravel",
+    "lar-chapa"
   ],
   "homepage": "https://github.com/sammytg7/Lar-Chapa",
   "license": "MIT",
