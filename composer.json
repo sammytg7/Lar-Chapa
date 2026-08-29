@@ -1,6 +1,6 @@
 {
   "name": "sammytg7/lar-chapa",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Laravel Package to Accept Payment through Chapa",
   "keywords": [
     "chapa",
@@ -11,6 +11,12 @@
   "license": "MIT",
   "type": "library",
   "authors": [
+    {
+      "name": "Samuel Abera",
+      "email": "samuelabera87@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/sammytg7"
+    },
     {
       "name": "Kidus Yared",
       "email": "kidusy@chapa.co",
@@ -25,13 +31,7 @@
       "name": "Semeredin Nurgeba",
       "email": "semernur11@gmail.com",
       "role": "Developer"
-    },
-    {
-      "name": "Samuel Abera",
-      "email": "samuelabera87@gmail.com",
-      "role": "Developer",
-      "homepage": "https://github.com/sammytg7"
-    }
+    }    
   ],
   "require": {
     "php": "^8.1",
