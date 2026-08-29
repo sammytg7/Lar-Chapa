@@ -8,8 +8,12 @@ All notable changes to `chapa-laravel` will be documented in this file
 
 ## 1.0.1 - 2023-05-22
 
-- Supporting latest `Laravel version (13.x)`, formatting and other minor reported bugs.
+- Supporting latest `Laravel version (10.x)`, formatting and other minor reported bugs.
 
 ## 1.0.2 - 2024-07-22
 
 - Support Transfers {Create and Verify} [beta]
+  
+## 1.0.3 - 2026-08-29
+
+- Supporting latest `Laravel version (13.x)`
