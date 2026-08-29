@@ -5,7 +5,7 @@
     "chapa",
     "chapa-laravel"
   ],
-  "homepage": "https://github.com/chapa-et/chapa-laravel",
+  "homepage": "https://github.com/sammytg7/Lar-Chapa",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -28,7 +28,7 @@
       "name": "Samuel Abera",
       "email": "samuelabera87@gmail.com",
       "role": "Developer",
-      "homepage": "https://github.com/SamuelAbera7"
+      "homepage": "https://github.com/sammytg7"
     }
   ],
   "require": {
