@@ -1,0 +1,73 @@
+{
+  "name": "chapa/chapa-laravel",
+  "description": "A Laravel Package to Accept Payment through Chapa",
+  "keywords": [
+    "chapa",
+    "chapa-laravel"
+  ],
+  "homepage": "https://github.com/chapa-et/chapa-laravel",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Kidus Yared",
+      "email": "kidusy@chapa.co",
+      "role": "Developer"
+    },
+    {
+      "name": "Israel Goytom",
+      "email": "myfirstname@chapa.co",
+      "role": "CTO"
+    },
+    {
+      "name": "Semeredin Nurgeba",
+      "email": "semernur11@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Samuel Abera",
+      "email": "samuelabera87@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/SamuelAbera7"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.14.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^9.0",
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Chapa.php"
+    ],
+    "psr-4": {
+      "Chapa\\Chapa\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Chapa\\Chapa\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Chapa\\Chapa\\ChapaServiceProvider"
+      ],
+      "aliases": {
+        "Chapa": "Chapa\\Chapa\\Facades\\Chapa"
+      }
+    }
+  }
+}
